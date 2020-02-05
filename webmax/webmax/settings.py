@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls.apps.PollsConfig',           # Every app added to the project must be referenced with its configration method
+    'polls.apps.PollsConfig',           # Every app added to the project must be referenced with its configuration method
 ]
 
 MIDDLEWARE = [

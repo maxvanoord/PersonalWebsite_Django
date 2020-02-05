@@ -20,6 +20,6 @@ from django.urls import path, include
 # ALWAYS include a '/' after your url name
 
 urlpatterns = [
-    path('view1/', include('polls.urls')),  
+    path('home/', include('polls.urls')),  
     path('admin/', admin.site.urls),
 ]
